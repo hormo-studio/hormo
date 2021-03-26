@@ -1,0 +1,24 @@
+{
+	"name": "hormo",
+	"version": "2.2.1",
+	"description": "Hormo core.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"ship": "rm -rf ./dist && tsc && npm publish",
+		"build": "rm -rf ./dist && tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/hormo-studio/hormo.git"
+	},
+	"author": "Hormo Studio",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/hormo-studio/hormo/issues"
+	},
+	"homepage": "https://github.com/hormo-studio/hormo#readme",
+	"devDependencies": {
+		"typescript": "^4.2.3"
+	}
+}
